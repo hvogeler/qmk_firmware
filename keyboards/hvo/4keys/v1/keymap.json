@@ -1,0 +1,8 @@
+{
+    "keyboard": "hvo/4keys/v1",
+    "keymap": "default",
+    "layers": [
+        ["KC_A", "KC_B", "KC_1", "KC_2"]
+    ],
+    "layout": "LAYOUT_4keys"
+}

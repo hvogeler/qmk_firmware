@@ -1,0 +1,26 @@
+{
+    "manufacturer": "hvo",
+    "keyboard_name": "4keys",
+    "usb": {
+        "vid": "0x6876",
+        "pid": "0x0146",
+        "device_version": "1.0.0"
+    },
+    "matrix_pins": {
+        "cols": ["GP2", "GP3"],
+        "rows": ["GP4", "GP5"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1}
+            ]
+        }
+    }
+}
