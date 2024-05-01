@@ -17,26 +17,35 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-[0] = LAYOUT_4keys(
+[0] = LAYOUT(
     KC_A, KC_B,
     KC_1, KC_3
 ),
 
-[1] = LAYOUT_4keys(
+[1] = LAYOUT(
     KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS
 ),
 
-[2] = LAYOUT_4keys(
+[2] = LAYOUT(
     KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS
 ),
 
-[3] = LAYOUT_4keys(
+[3] = LAYOUT(
     KC_TRNS, KC_TRNS,
     KC_TRNS, KC_TRNS
 ),
-
 };
 
-// aheiko.vogeler@hvo.deheiko.vogeler@hvo.de
+// #if defined(ENCODER_MAP_ENABLE)
+// const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+//     [0] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+//     [1] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+//     [2] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+//     [3] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN) },
+// };
+// #endif
+
+
+// aheiko.vogeler@hvo.deheiko.vogeler@hvo.dea1abheiko.vogeler@hvo.de
